@@ -8,7 +8,7 @@ import re
 
 def pregunta_01():
     
-    with open("C:/Github/Analitica_Descriptiva/Labs/LAB-03-ingestion-de-texto-plano-JuanTA97/files/input/clusters_report.txt", "r", encoding="utf-8") as f:
+    with open("files/input/clusters_report.txt", "r", encoding="utf-8") as f:
       lines = f.readlines()
       
       #Organizamos el título
